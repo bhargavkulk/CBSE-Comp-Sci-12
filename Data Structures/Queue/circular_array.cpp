@@ -41,7 +41,7 @@ void insert() {
 		|  0  |  1  |  2  | ... |  17 |  18 |  19 |
 		+-----+-----+-----+-----+-----+-----+-----+
 
-		so now fron is at the very front of the array, and rear is at the very
+		so now front is at the very front of the array, and rear is at the very
 		end of the array. Therefore the condition is:
 
 		front == 0 && rear == SIZE - 1
