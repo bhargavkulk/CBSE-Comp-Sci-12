@@ -20,8 +20,8 @@ Stack::Stack() {
 
 void Stack::push() {
     if (top == 20 - 1) {
-        // top is equal to the maximum index i.e.
-        // the current element occupies the last index.
+        // top is equal to the maximum index (which in this case is 20 - 1 = 19) 
+        // i.e. the current element occupies the last index.
         // no more elements can be pushed onto the stack.
         cout << "Stack overflow." << endl;
     } else {

@@ -7,7 +7,7 @@ struct BookNode {
 	BookNode* next;
 };
 
-void book_input(BookNode& book) {
+void book_input(BookNode* book) {
 	cout << "Enter name: ";
 	gets(book.name);
 
