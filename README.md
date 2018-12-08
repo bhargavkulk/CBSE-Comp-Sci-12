@@ -3,5 +3,9 @@ A collection of C++ programs important for the 12th grade CBSE(India) board exam
 
 ## Index:
 * Data Structures
-  * Stack as an array.
-  * Stack as a linked list.
+  * Stack
+    * Stack as an array.
+    * Stack as a linked list.
+  * Queue
+    * Queue as a circular array.
+    * Queue as a linked list
