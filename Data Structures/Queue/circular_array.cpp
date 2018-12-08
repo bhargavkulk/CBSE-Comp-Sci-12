@@ -46,7 +46,7 @@ void insert() {
 
 		front == 0 && rear == SIZE - 1
 
-		size in this implemntation is 20
+		size in this implementation is 20
 	*/
 	if((front == rear + 1) || (front == 0 && rear == 20 - 1)) {
 		cout << "Queue full." << endl;
