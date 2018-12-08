@@ -1,6 +1,8 @@
 #include <iostream.h>
 #include <stdio.h>
 
+// self referential structure
+// this is the heart/bone/core/whatever of any linked list type data structure
 struct BookNode {
 	char name[20];
 	float price;
