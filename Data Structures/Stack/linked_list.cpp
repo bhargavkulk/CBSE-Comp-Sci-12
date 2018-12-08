@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // self referential structure
-// this is the heart/bone/core/whatever of any linked list type data structure
+// this is the heart/bone/core/whatever of any linked-list type data structure
 struct BookNode {
 	char name[20];
 	float price;
@@ -32,6 +32,8 @@ public:
 };
 
 Stack::Stack() {
+	// top is the pointer to top mest element on the stack
+	// initial condition:
 	top = NULL;
 }
 
@@ -99,8 +101,8 @@ void Stack::pop() {
 		*/
 		top = top->next;
 		cout << "Popped: " << endl;
-		book_output(*temp); // book_input is call by value, so we derefence temp
-						   // to expose what its pointing to.
+		book_output(*temp); // book_output is call by value, so we derefence
+							// temp to expose what it's pointing to.
 		cout << endl;
 		delete temp; //dont forget your delete!
 	}

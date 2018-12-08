@@ -15,6 +15,7 @@ public:
 Stack::Stack() {
     // top is the constrol variable that indicates the index of the current
     // top-most element 
+    // initial condition:
 	top = -1;
 }
 

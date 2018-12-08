@@ -12,6 +12,8 @@ public:
 };
 
 Queue::Queue() {
+	// rear is the index to which new elements get added to.
+	// front is the index from which elements are removed from.
 	// initial condition:
 	front = rear = -1;
 }
