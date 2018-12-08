@@ -32,7 +32,7 @@ public:
 };
 
 Stack::Stack() {
-	// top is the pointer to top mest element on the stack
+	// top is the pointer to top most element on the stack
 	// initial condition:
 	top = NULL;
 }
