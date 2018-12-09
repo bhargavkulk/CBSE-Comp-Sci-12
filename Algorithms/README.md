@@ -41,7 +41,7 @@ Now we have come to the end of the array. So we have to place 3 in the front.
 |  3  |  7  |  4  |  2  |  6  |  1  |  5  |
 +-----+-----+-----+-----+-----+-----+-----+
 ```
-Now this is the sorted and unsorted subarrays:
+Now these are the sorted and unsorted subarrays:
 ```
 +-----+-----+ +-----+-----+-----+-----+-----+
 |  3  |  7  | |  4  |  2  |  6  |  1  |  5  |
