@@ -55,7 +55,7 @@ Now the inner loop for the comparisons starts. Now we just swap adjacent element
 now j = 6 so break out of loop
 ```
 All of these swaps happen in 1 run of the outer loop.
-Here are the array for after each run of the outer loop:
+Here are the arrays after each run of the outer loop:
 ```
 1: i = 0
 +-----+-----+-----+-----+-----+-----+-----+
