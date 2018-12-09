@@ -131,7 +131,7 @@ void Queue::remove() {
 void Queue::display() {
 	// displaying a circular queue is not as easy as just running a loop from
 	// front to rear because rear can be behind front. so we need to check if
-	// rear is less tahn front, then we display it using to loops: one from 
+	// rear is less than front, then we display it using to loops: one from 
 	// front to end of the array, and the other from the front of the array
 	// to rear
 	if(front == -1) {
