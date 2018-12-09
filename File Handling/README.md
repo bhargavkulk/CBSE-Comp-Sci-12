@@ -23,3 +23,12 @@ Flag | Action
 `ios::ape` | all output operations happen **at the end** of the file, **appending** to its existing contents. unlike ios::ate, you can't move backwards
 `ios::create` | if the file is a **new file**, the operation fails because it **cannot create a new file**. if the file already exists, then it is opened and its content is made available for processing
 `ios::noreplace` | if the file **already exists** and you try to open it, this operation would fail because it cannot create a file of the same name in the same location. if the file is a new file, then it gets created. 
+
+
+## `seekp` / `seekg` flags:
+
+Flag | Offset is relative to:
+---- | ----------------------
+`ios::beg` |	beginning of the stream
+`ios::cur`	| current position in the stream
+`ios::end`	| end of the stream
