@@ -34,3 +34,4 @@ A collection of C++ programs important for the 12th grade CBSE(India) board exam
 * in another language:
   * http://interactivepython.org/runestone/static/pythonds/SortSearch/TheBubbleSort.html
   * http://interactivepython.org/runestone/static/pythonds/SortSearch/TheSelectionSort.html
+  * http://interactivepython.org/runestone/static/pythonds/SortSearch/TheInsertionSort.html(These 3 links have questions that can be used to practice the "what is the state of the array after x passes of <whatever> sort?")
