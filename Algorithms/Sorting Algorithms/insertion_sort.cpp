@@ -8,6 +8,6 @@ void insertion_sort(int arr[], int len) {
 			j--;
 		}
 
-		a[j+1] = temp;
+		a[j+1] = x;
 	}
 }
