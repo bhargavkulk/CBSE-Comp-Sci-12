@@ -11,10 +11,10 @@ struct BookNode {
 
 void book_input(BookNode* book) {
 	cout << "Enter name: ";
-	gets(book.name);
+	gets(book->name);
 
 	cout << "Enter price: ";
-	cin >> book.price;
+	cin >> book->price;
 }
 
 void book_output(BookNode book) {

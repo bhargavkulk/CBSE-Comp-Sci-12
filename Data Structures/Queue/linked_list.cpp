@@ -20,13 +20,13 @@ class Queue {
 	ComplexNode *front, *rear;
 
 public:
-	ComplexNode();
+	Queue();
 	void insert();
 	void remove();
 	void display();
 };
 
-ComplexNode::ComplexNode() {
+Queue::Queue() {
 	// rear is the pointer to the last element of the queue. it is from rear's 
 	// side, elements enter
 	// front is the pointer to the front element of the queue. it is from
@@ -38,7 +38,7 @@ ComplexNode::ComplexNode() {
 	front = rear = NULL;
 }
 
-void ComplexNode::insert() {
+void Queue::insert() {
 	ComplexNode* temp = new ComplexNode(); // dont forget the new!
 	complex_input(temp);
 	temp->next = NULL;

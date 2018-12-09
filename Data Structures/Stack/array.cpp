@@ -62,7 +62,7 @@ void Stack::display() {
         // loop only till top, but include top in the count
         // as top has the last element
         for(int i = 0; i <= top; i++) {
-            cout << stack[i] << ' '
+            cout << stack[i] << ' ';
         }
         cout << endl;
     }

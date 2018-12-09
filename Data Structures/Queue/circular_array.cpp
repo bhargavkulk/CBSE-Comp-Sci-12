@@ -18,7 +18,7 @@ Queue::Queue() {
 	front = rear = -1;
 }
 
-void insert() {
+void Queue::insert() {
 	// we first check if the queue is full
 	// there are two ways in which the queue can be full.
 	// and that is why there are 2 conditions separeted by an or to check if the
