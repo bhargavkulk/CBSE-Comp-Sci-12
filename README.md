@@ -1,4 +1,4 @@
-# CBSE-Comp-Sci-12
+# CBSE 12th Computer Science
 A collection of C++ programs important for the 12th grade CBSE(India) board exams.
 
 ## Index:
