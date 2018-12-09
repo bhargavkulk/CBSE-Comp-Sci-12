@@ -105,7 +105,7 @@ The outer loop in insertion sort starts from index = 1. Now we can visualize the
 +-----+ +-----+-----+-----+-----+-----+-----+
 ```
 
-The "array" in the front is the sorted subarray, and the other "array" is the unsorted subarray. Now we take the number in index 1 and insert it into the sorted array. Insertion is done by pushing elemnts back until we can safely put in the number in the sorted subarray.
+The "array" in the front is the sorted subarray, and the other "array" is the unsorted subarray. Now we take the number in index 1 and insert it into the sorted array. Insertion is done by pushing elements back until we can safely put in the number in the sorted subarray.
 In this case, first we compare 3 with 7. As 3 is less than 7, it is possible that 3 can be inserted even further. So we then push back 7.
 ```
 +-----+-----+-----+-----+-----+-----+-----+
@@ -118,7 +118,7 @@ Now we have come to the end of the array. So we have to place 3 in the front.
 |  3  |  7  |  4  |  2  |  6  |  1  |  5  |
 +-----+-----+-----+-----+-----+-----+-----+
 ```
-Now this is the sorted and unsorted subarrays:
+Now these are the sorted and unsorted subarrays:
 ```
 +-----+-----+ +-----+-----+-----+-----+-----+
 |  3  |  7  | |  4  |  2  |  6  |  1  |  5  |
