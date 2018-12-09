@@ -10,7 +10,7 @@ There are 2 types of algorithms taught in CBSE:
   * Selection Sort
   * Insertion Sort
 
-## Bubble Sort
+## Bubble Sort:
 Bubble sort is a very simple sorting algorithm that works by swapping adjacent elements in an array until they are in order.
 Taking this unsorted array:
 ```
