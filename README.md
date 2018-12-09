@@ -17,3 +17,11 @@ A collection of C++ programs important for the 12th grade CBSE(India) board exam
     * Modifying a record in a file
     * Searching for a record in a file
     * Sorting the contents of a file
+* Algorithms
+  * Searching Algorithms
+    * Linear Search
+    * Binary Search
+  * Sorting Algorithms
+    * Bubble Sort
+    * Selection Sort
+    * Insertion Sort
