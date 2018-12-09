@@ -1,13 +1,13 @@
 void insertion_sort(int arr[], int len) {
 	for(int i = 1; i < len; i++) {
-		int j = i;
+		int x = a[i];
 
-		while(j > 0 && arr[j-1] > arr[j]) {
-			int temp = arr[j];
-			arr[j] = arr[j-1];
-			arr[j-1] = temp;
-
-			j++;
+		int j = i - 1;
+		while(x < a[j] && j >= 0) {
+			a[j+1] = a[j];
+			j--;
 		}
+
+		a[j+1] = temp;
 	}
 }
