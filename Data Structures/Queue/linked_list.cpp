@@ -88,7 +88,7 @@ void Queue::insert() {
 void Queue::remove() {
 	// as elements exit from from, we will initialize temp(node to be 
 	// removed) to front
-	ComplexNode *temp = front;
+	ComplexNode *node = front;
 
 	if(front == NULL) {
 		// queue is empty, as front is still has its initial condition
