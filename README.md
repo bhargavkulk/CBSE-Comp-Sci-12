@@ -25,3 +25,12 @@ A collection of C++ programs important for the 12th grade CBSE(India) board exam
     * Bubble Sort
     * Selection Sort
     * Insertion Sort
+
+## Some good links:
+* in C++:
+  * https://www.geeksforgeeks.org/bubble-sort/
+  * https://www.geeksforgeeks.org/insertion-sort/
+  * https://www.geeksforgeeks.org/selection-sort/
+* in another language:
+  * http://interactivepython.org/runestone/static/pythonds/SortSearch/TheBubbleSort.html
+  * http://interactivepython.org/runestone/static/pythonds/SortSearch/TheSelectionSort.html
