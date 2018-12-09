@@ -21,7 +21,7 @@ Queue::Queue() {
 void Queue::insert() {
 	// we first check if the queue is full
 	// there are two ways in which the queue can be full.
-	// and that is why there are 2 conditions separeted by an or to check if the
+	// and that is why there are 2 conditions separated by an "or" to check if the
 	// queue is full or not
 	/* 
 		1:
@@ -30,9 +30,9 @@ void Queue::insert() {
 		|  0  |  1  |  2  | ... |  14 |  15 |  16 |  17 |  18 |  19 |
 		+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
 		
-		as this is a circular array, rear can loop back to the front. so when
-		rear and fron are side to side, with rear just behind front, the queue
-		is full. Therefore the condition is:
+		as this is a circular array, rear can loop back to the front of the array. 
+		so when rear and fron are side to side, with rear just behind front, 
+		the queue is full. Therefore the condition is:
 
 		front == rear + 1
 
