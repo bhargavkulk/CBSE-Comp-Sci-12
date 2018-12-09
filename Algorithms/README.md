@@ -87,10 +87,33 @@ now i = 6 so break out of outer loop
 If you look at the passes of the outer loop, you will see that the last i + 1 elemenst are always sorted. So we never need to compare them in the inner loop.
 so the inner loop condition can be changed from `j < len - 1` to `j < len - i - 1` to make the loop more efficient.
 
+## Selection Sort:
+The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning.
+Taking this unsorted array:
+```
++-----+-----+-----+-----+-----+-----+-----+
+|  7  |  3  |  4  |  2  |  6  |  1  |  5  |
++-----+-----+-----+-----+-----+-----+-----+
+```
+The outer loop starts with i = 0. The outer loop loops from i = 0 to len - 1. Now inside the outer loop, we assume i to be the index of the smallest element in the array. Then we loop through the elements after i and find out the smallest among them. Then we swap the smallest element with the element at i.
+```
+after 1 pass of outer loop
++-----+-----+-----+-----+-----+-----+-----+
+|  1  |  3  |  4  |  2  |  6  |  7  |  5  |
++-----+-----+-----+-----+-----+-----+-----+
+```
+1 was the smallest element after i = 0 (remember that the element at i is also included when checking for the smallest element!). Now this has effectively split the array into two subarrays: a sorted and an unsorted one.
+```
++-----+ +-----+-----+-----+-----+-----+-----+
+|  1  | |  3  |  4  |  2  |  6  |  7  |  5  |
++-----+ +-----+-----+-----+-----+-----+-----+
+```
+So now we can say what selection sort does is: it finds the smallest element from the unsorted subarray and appends it to the sorted subarray.
+
+
 ## Insertion Sort:
 Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
 Taking this unsorted array:
-
 ```
 +-----+-----+-----+-----+-----+-----+-----+
 |  7  |  3  |  4  |  2  |  6  |  1  |  5  |
