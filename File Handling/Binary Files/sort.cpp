@@ -76,7 +76,7 @@ void sort() {
 
 	ofstream fout("students.dat", ios::binary|ios::trunc);
 	for(i = 0; i < len; i++) {
-		fout.write((char*)&arr[i], sieof(Student));
+		fout.write((char*)&arr[i], sizeof(Student));
 	}
 
 	fout.close();
