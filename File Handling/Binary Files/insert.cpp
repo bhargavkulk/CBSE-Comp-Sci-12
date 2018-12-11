@@ -49,10 +49,10 @@ void insert() {
 			//   roll no. of the current "read" student. 
 			/*
 				+-----+-----+-----+-----+-----+-----+-----+
-		        |  0  |  1  |  2  |  4  |  6  |  7  |  8  |
-		        +-----+-----+-----+-----+-----+-----+-----+
+		        	|  0  |  1  |  2  |  4  |  6  |  7  |  8  |
+		        	+-----+-----+-----+-----+-----+-----+-----+
 
-		        5 is to be inserted. 5 is less than 6, so we insert it before 6
+		        	5 is to be inserted. 5 is less than 6, so we insert it before 6
 			*/
 
 			//2: a file is already inserted. we do not need to insert anymore
