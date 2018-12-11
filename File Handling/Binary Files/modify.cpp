@@ -46,7 +46,6 @@ void modify() {
 			// pointer relative to the file pointer's current position, and we
 			// move it behind by the object's size
 			file.seekp(ios::cur, -1 * sizeof(Student));
-			temp
 			file.write((char*)&student, sizeof(Student));
 
 			// assuming all roll nos are unique, we can break out of the loop
