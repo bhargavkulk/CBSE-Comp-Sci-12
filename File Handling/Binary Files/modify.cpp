@@ -29,7 +29,7 @@ void modify() {
 	fstream file("students.dat", ios::in|ios::out|ios::binary);
 
 	Student temp, student;
-	cout << "Enter student no. to be modified: ";
+	cout << "Enter student to be modified: ";
 	student.input()
 
 	// whenever data is read in a loop from a binary file, and the read
