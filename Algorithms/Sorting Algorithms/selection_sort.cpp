@@ -7,7 +7,7 @@ void selectionSort(int arr[], int len) {
             idx = j; 
        	}
   
-  		if(idx != j) {
+  	if(idx != j) {
 	        int temp = arr[idx];
 	        arr[idx] = arr[j];
 	        arr[j] = temp;
