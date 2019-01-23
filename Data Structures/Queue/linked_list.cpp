@@ -104,16 +104,16 @@ void Queue::remove() {
 		} else {
 			// now we just move front forward
 			/*
-                queue:
+                	queue:
 				NULL <- rear <- ... <- [2nd node] <- front, temp[node to ne removed]
                 
-                now we just move front forward:
+                	now we just move front forward:
 
-                NULL <- rear <- ... <- front[2nd node] <- temp[node to be removed]
+                	NULL <- rear <- ... <- front[2nd node] <- temp[node to be removed]
 
-                then we free temp:
+                	then we free temp:
 
-                NULL <- rear <- ... <- front[2nd node]
+                	NULL <- rear <- ... <- front[2nd node]
 
 			*/
             front = front->next;
