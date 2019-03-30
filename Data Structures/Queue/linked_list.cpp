@@ -61,7 +61,7 @@ void Queue::insert() {
 			NULL <- front, rear[first node]
 		*/
 
-		front = rear = NULL;
+		front = rear = temp;
 	} else {
 		// the queue has some data. so now we need to insert from rear.
 		/*
