@@ -84,8 +84,8 @@ int numOfFactors(ll n)
 
 
 ll p[1]={};
-//Putting it here vs putting it inside main
-//Find number of factor works weirdly with square roots
+//Putting it here vs putting it inside main : stack and heap have different spaces available
+//Find number of factor works weirdly with square roots : we'll never know
 //memset
 //Try to do functional programming
 
@@ -125,14 +125,6 @@ int main()
 		cout << -1 << "\n" ;
 	}
 }
-
-
-
-
-struct Node{
-	Node* child[26]={};
-	// vector<Node *> leaves;
-};
 
 
 
